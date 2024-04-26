@@ -1,0 +1,116 @@
+.welk{
+
+   
+    font-weight: 1000;
+    font-style: unset;
+    font-size: 50px;
+    animation-name: slide;
+    animation-duration: 2s;
+    
+
+
+}
+.welk:hover {
+    color: rgb(255, 0, 0);
+    
+}
+
+
+.welcome{
+    height: 100px;
+    background: linear-gradient(rgb(76, 9, 9), rgb(72, 72, 7), rgb(63, 63, 93), rgb(107, 14, 51));
+    
+
+}
+
+ 
+
+.container{
+    
+    display: flex;
+    justify-content: center;
+    color: green;
+    padding: 10px;
+    height: auto;
+    width: auto;
+    font-size: large;
+
+}
+
+.main{
+    color: green;
+}
+
+body{
+    font-size: 30px;
+
+  
+    color: rgb(64, 255, 0);
+    background:linear-gradient(black,rgb(66, 0, 0));
+    background-image: url('/vids/fire.gif');
+}
+
+
+.textabout{
+   
+    width: 400px;
+    height: 35px;
+    background: linear-gradient(to top, #476002, rgb(144, 10, 0));    
+}
+
+.imghzazard{
+    height: 50px;
+    
+    
+
+}
+
+.vids-colection1{
+    display: flexbox;
+    justify-content: center;
+}
+
+.video{
+    height: 183px;
+
+}
+
+.music{
+    background-size: cover ;
+    background:radial-gradient(black,red,orange,black,red,orange);
+    border-radius: 10px;
+    height: 60px;
+}
+
+.colmus{
+
+    display: flexbox;
+    justify-content:flex-start;
+}
+
+.clips{
+
+    border-radius: 15px;
+}
+
+div{
+    animation-name: slidein,bonus,move;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-direction: alternate
+
+    
+}
+
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+       
+    }
+    to{
+margin-left: 0%;
+
+    }
+
+}
+
